@@ -5,12 +5,16 @@ trading signal has been modelled based on a set of rules using various technical
 The dataset compromises 10 year Stock details of 5 stocks namely: RELIANCE, HDFC,ITC,INFOSYS and TCS.
 The result of the analysis is the predicted trend of the market index, which can be used to set out some trading rules:
 • If the next day trend is Uptrend, then the decision is BUY
+
 • If BUY decision already exists, then HOLD.
+
 • If the next day trend is Downtrend, then the decision is SELL
+
 • If SELL decision already exists, then HOLD
+
 According to the result obtained with these rules, the return of strategy has been calculated.
 
-Results
+# Results
 
 An accuracy of 94.2% was achieved which indicates that our model has the capability of reducing the losses compared to the actual returns; if they were calculated on the basis of the previous day's closing price.
 
